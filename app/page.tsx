@@ -3,6 +3,7 @@
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
+import axios from "axios"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -44,6 +45,7 @@ export default function Home() {
       form.reset();
       toast("Message received. I will contact you as soon as I can.");
     } catch (error) {
+      console.log(error);
       toast.error("Failed to send message. Please try again.");
     }
   }
