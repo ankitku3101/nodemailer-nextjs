@@ -28,7 +28,7 @@ To set up this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git](https://github.com/ankitku3101/nodemailer-nextjs.git
+   git clone https://github.com/ankitku3101/nodemailer-nextjs.git
    cd nodemailer-nextjs
    ```
 
@@ -50,7 +50,7 @@ To set up this project locally, follow these steps:
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+5. Open http://localhost:3000 in your browser to view the app.
 
 ## Customization
 
